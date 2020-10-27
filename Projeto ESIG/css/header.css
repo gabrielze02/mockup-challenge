@@ -1,0 +1,33 @@
+#firstlabel {
+  position: relative;
+}
+
+#firstlabel:before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  left: 7rem;
+  top: 1;
+  bottom: 0;
+  background: url("/images/testesvg.jpg") center / contain no-repeat;
+}
+
+input {
+  color: #808080;
+  font-size: 1.5rem;
+  margin: 6rem 0 3rem 6rem;
+  padding: 2rem 5rem;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #302e63;
+}
+
+.title {
+  font-size: 4rem;
+  margin: 0 0 3rem 5rem;
+  color: #302e63;
+}

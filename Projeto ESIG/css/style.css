@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.dot-svg {
+  filter: invert(71%) sepia(0%) saturate(1120%) hue-rotate(204deg)
+    brightness(89%) contrast(68%);
+}
